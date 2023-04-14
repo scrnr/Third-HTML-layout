@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='shortcut icon' href='img/favicon.ico'>
+    <title>Hamidic</title>
+    <link rel='stylesheet' href='css/fonts.css'>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/media.css'>
+  </head>
+  <body>
+
+    <header class='header'>
+      <div class='container'>
+        <nav class='menu-desktop'>
+          <ul class='menu'>
+            <li class='menu-item'><a href=''>Home</a></li>
+            <li class='menu-item' data-href='#about' id='href'><a href='#about'>About Us</a></li>
+            <li class='menu-item' data-href='#team' id='href'><a href='#team'>Team</a></li>
+            <li class='menu-item'><img src='img/logo.png' alt='logo' class='menu-logo'></li>
+            <li class='menu-item' data-href='#services' id='href'><a href='#services'>Services</a></li>
+            <li class='menu-item'><a href='#'>Blog</a></li>
+            <li class='menu-item' data-href='#contacts' id='href'><a href='#contacts'>Contact Us</a></li>
+          </ul>
+        </nav>
+        <nav class='menu-mobile'>
+          <a href='' class='menu-logo'><img src='img/logo.png' alt='logo'></a>
+          <div class='menu-burger'></div>
+          <ul class='menu open'>
+            <div class='menu-box-item'>
+              <li class='menu-item'><a href=''>Home</a></li>
+              <li class='menu-item' data-href='#about' id='href'><a href='#about'>About Us</a></li>
+              <li class='menu-item' data-href='#team' id='href'><a href='#team'>Team</a></li>
+            </div>
+            <div class='menu-box-item'>
+              <li class='menu-item' data-href='#services' id='href'><a href='#services'>Services</a></li>
+              <li class='menu-item'><a href='#'>Blog</a></li>
+              <li class='menu-item' data-href='#contacts' id='href'><a href='#contacts'>Contact Us</a></li>
+            </div>
+          </ul>
+        </nav>
+        <div class='header-content'>
+          <h1 class='header-title'>We build it with passion</h1>
+          <p class='header-text'>Just to be clear, we do this for fun not for you, just kidding.</p>
+          <a href='#services' class='header-btn' id='href' data-href='#services'>READ MORE</a>
+        </div>
+      </div>
+    </header>
+
+    <section class='about' id='about'>
+      <div class='container container-about'>
+        <div class='about-box'>
+          <div class='about-item'>
+            <p class='about-year'>2011</p>
+            <p class='about-text'>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit.</p>
+          </div>
+          <div class='about-item'>
+            <p class='about-year'>2012</p>
+            <p class='about-text'>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit. Begitus vit urna nulla.</p>
+          </div>
+          <div class='about-item'>
+            <p class='about-year'>2013</p>
+            <p class='about-text'>Sed at auctor sem, nec tincidunt elit. Pellentesque enim turpis, porttitor ac orci in, ultrices efficitur nisl. Ut odio libero, sodales a tellus eleifend, suscipit dapibus mi.</p>
+          </div>
+          <div class='about-item'>
+            <p class='about-year'>2014</p>
+            <p class='about-text'>Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit. Begitus vit urna nulla.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- сделать нормальные иконки соц сетей, чтобы при наведении меняли цвет -->
+    <!-- возможно надо скачать иконки на сайте fontello -->
+
+    <section class='team' id='team'>
+      <div class='container team-container'>
+        <h2 class='title team-title'>This is our team</h2>
+        <p class='text team-text'>We are small but effective and ...</p>
+        <div class='box team-box'>
+          <div class='item team-item' data-swipe='one'>
+            <img src='img/team_1.png' class='team-img'>
+            <div class='team-item-content'>
+              <h3 class='team-name'>Mark Once</h3>
+              <p class='team-item-text'>Designer & Front-End Developer</p>
+              <div class='team-social-box'>
+                <a href='#'><img src='img/twitter.png' alt='twitter'></a>
+                <a href='#'><img src='img/instagram.png' alt='instagram'></a>
+              </div>
+            </div>
+          </div>
+          <div class='item team-item active' data-swipe='two'>
+            <img src='img/team_2.png' class='team-img'>
+            <div class='team-item-content'>
+              <h3 class='team-name'>Justin Twice</h3>
+              <p class='team-item-text'>Founder & CEO</p>
+              <div class='team-social-box'>
+                <a href='#'><img src='img/twitter.png' alt='twitter'></a>
+                <a href='#'><img src='img/instagram.png' alt='instagram'></a>
+              </div>
+            </div>
+          </div>
+          <div class='item team-item' data-swipe='three'>
+            <img src='img/team_3.png' class='team-img'>
+            <div class='team-item-content'>
+              <h3 class='team-name'>Antonio Never</h3>
+              <p class='team-item-text'>Someone & Somewhere</p>
+              <div class='team-social-box'>
+                <a href='#'><img src='img/twitter.png' alt='twitter'></a>
+                <a href='#'><img src='img/instagram.png' alt='instagram'></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='team-swipper'>
+          <span data-swipe='one' class='team-swipper-btn'></span>
+          <span data-swipe='two' class='team-swipper-btn active'></span>
+          <span data-swipe='three' class='team-swipper-btn'></span>
+        </div>
+      </div>
+    </section>
+
+    <section class='services' id='services'>
+      <div class='container'>
+        <h2 class='title services-title'>We provide you everything</h2>
+        <p class='text services-text'>Maybe not everything, but we provide you some stuff.</p>
+        <div class='box services-box'>
+          <div class='item services-item'>
+            <img src='img/analytics.png'>
+            <div class='services-item-text-box'>
+              <h3 class='services-box-title'>Some Analytics</h3>
+              <p class='services-box-text'>Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</p>
+            </div>
+          </div>
+          <div class='item services-item'>
+            <img src='img/heart.png'>
+            <div class='services-item-text-box'>
+              <h3 class='services-box-title'>We provide you love</h3>
+              <p class='services-box-text'>Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</p>
+            </div>
+          </div>
+          <div class='item services-item'>
+            <img src='img/cloud.png'>
+            <div class='services-item-text-box'>
+              <h3 class='services-box-title'>And Some Cloud</h3>
+              <p class='services-box-text'>Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class='contacts' id='contacts'>
+      <div class='container'>
+        <h2 class='title contacts-title'>Contact Us</h2>
+        <p class='text contacts-text-up'>We know what we need to do</p>
+        <div class='contacts-social-box'>
+          <div class='contacts-social-item'>
+            <img src='img/phone.png'>
+            <p class='contacts-text'><a href='tel:555-222-333'>555-222-333</a></p>
+          </div>
+          <div class='contacts-social-item'>
+            <img src='img/map.png'>
+            <p class='contacts-text'><a href='https://goo.gl/maps/zUqGt5EFV2yTiCbt7' target='_blank'>Here is some address</a></p>
+          </div>
+          <div class='contacts-social-item'>
+            <img src='img/mail.png'>
+            <p class='contacts-text'><a href='mailto:somemail@hotmail.com'>somemail@hotmail.com</a></p>
+          </div>
+        </div>
+        <form method='post' class='feedback-form'>
+          <input type='text' name='name' placeholder='Full Name' class='feedback-input contacts-text'>
+          <input type='email' name='email' placeholder='Email' class='feedback-input contacts-text'>
+          <input type='tel' name='num' placeholder='Number' class='feedback-input contacts-text'>
+          <textarea name='message' placeholder='Write your Message here...' class='feedback-input feddback-input-textarea contacts-text'></textarea>
+          <button type='submit' name='btn-submit' class='feedback-btn'>Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class='footer'>
+      <div class='container'>
+        <p class='copyright'>Copyright &copy; Hamidic 2022. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src='js/script.js'></script>
+  </body>
+</html>
